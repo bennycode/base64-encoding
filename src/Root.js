@@ -15,8 +15,8 @@ class Root extends React.Component {
     return (
       <div style={{width: '500px', margin: '0 auto'}}>
         <h1>Base64 Converter</h1>
-        <TextArea value={this.state.ascii}></TextArea>
-        <TextArea value={this.state.base64}></TextArea>
+        <TextArea value={this.state.ascii} />
+        <TextArea value={this.state.base64} />
         <input type="button" onClick={this.onConvert} value="Convert"></input>
       </div>
     );
