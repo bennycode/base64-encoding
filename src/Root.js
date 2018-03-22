@@ -1,4 +1,5 @@
 import React from 'react';
+import TextArea from './TextArea';
 
 class Root extends React.Component {
 
@@ -11,12 +12,11 @@ class Root extends React.Component {
     this.setState({...this.state, ascii: this.state.base64, base64: this.state.ascii});
 
   render() {
-    const textareaStyle = {width: '100%', minHeight: '100px', marginBottom: '10px', display: 'block'};
     return (
       <div style={{width: '500px', margin: '0 auto'}}>
         <h1>Base64 Converter</h1>
-        <textarea style={textareaStyle} value={this.state.ascii}></textarea>
-        <textarea style={textareaStyle} value={this.state.base64}></textarea>
+        <TextArea value={this.state.ascii}></TextArea>
+        <TextArea value={this.state.base64}></TextArea>
         <input type="button" onClick={this.onConvert} value="Convert"></input>
       </div>
     );
