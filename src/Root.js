@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Root = ({}) => (
-  <div>
-    Hellogsdhh
-  </div>
-);
+class Root extends React.Component {
+  render() {
+    return (
+      <div>
+        Snowboard!
+      </div>
+    );
+  }
+}
 
 export default Root;

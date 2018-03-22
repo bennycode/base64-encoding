@@ -4310,10 +4310,6 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
-private-ip@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/private-ip/-/private-ip-1.0.5.tgz#22d0183fba09d0ec1a2a4e0f46feb771563d1449"
-
 private@^0.1.6, private@^0.1.7, private@~0.1.5:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -4810,12 +4806,6 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^2.0.0"
     inherits "^2.0.1"
 
-rtcpeerconnection-shim@^1.2.9:
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/rtcpeerconnection-shim/-/rtcpeerconnection-shim-1.2.10.tgz#11beb590383405f398e74e38e3618eca3b9254b3"
-  dependencies:
-    sdp "^2.6.0"
-
 run-async@^2.0.0, run-async@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
@@ -4864,14 +4854,6 @@ schema-utils@^0.4.2, schema-utils@^0.4.5:
 scoped-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/scoped-regex/-/scoped-regex-1.0.0.tgz#a346bb1acd4207ae70bd7c0c7ca9e566b6baddb8"
-
-sdp-transform@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/sdp-transform/-/sdp-transform-2.4.0.tgz#d816663c5d1b2972e42524c7a1570558d8a2f17d"
-
-sdp@^2.6.0, sdp@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/sdp/-/sdp-2.7.0.tgz#02b64ea0c29d73179afa19794e466b123b1b29f3"
 
 select-hose@^2.0.0:
   version "2.0.0"
@@ -5830,13 +5812,6 @@ webpack@4.1.1:
     uglifyjs-webpack-plugin "^1.1.1"
     watchpack "^1.5.0"
     webpack-sources "^1.0.1"
-
-webrtc-adapter@6.1.4:
-  version "6.1.4"
-  resolved "https://registry.yarnpkg.com/webrtc-adapter/-/webrtc-adapter-6.1.4.tgz#6fb13589fd29c1a1061b80cf86f6f2b1a0c45431"
-  dependencies:
-    rtcpeerconnection-shim "^1.2.9"
-    sdp "^2.7.0"
 
 websocket-driver@>=0.5.1:
   version "0.7.0"
