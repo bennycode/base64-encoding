@@ -2,7 +2,7 @@
   "name": "base64-encoding",
   "version": "0.0.0",
   "description": "",
-  "main": "./src/index.js",
+  "main": "src/index.js",
   "scripts": {
     "clear": "rimraf dist",
     "start": "webpack-dev-server",

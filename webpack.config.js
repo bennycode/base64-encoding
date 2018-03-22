@@ -1,3 +1,4 @@
+const pkg = require('./package.json');
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -12,11 +13,12 @@ const src = 'src';
 module.exports = {
   devtool: 'source-map',
   devServer: {
-    contentBase: './dist',
-    hot: true
+    contentBase: dist,
+    hot: true,
+    open: true,
   },
   entry: {
-    script: `${__dirname}/${src}/index.js`,
+    [pkg.name]: `${__dirname}/${pkg.main}`,
   },
   mode: 'development',
   module: {
@@ -33,7 +35,7 @@ module.exports = {
     ],
   },
   output: {
-    filename: 'dist/[name].js',
+    filename: '[name].bundle.js',
     path: `${__dirname}/${dist}`,
     publicPath: '/',
   },
