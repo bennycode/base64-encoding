@@ -14,7 +14,7 @@ class Root extends React.Component {
     try {
       this.setState({...this.state, base64, ascii: atob(base64), error: null});
     } catch(error) {
-      this.setState({...this.state, error: error.message});
+      this.setState({...this.state, base64, error: error.message});
     }
   };
 
