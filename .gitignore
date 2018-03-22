@@ -1,5 +1,4 @@
-!/.idea/codeStyleSettings.xml
-!/.idea/modules.xml
+.idea
 .DS_Store
 .Icon
 /.idea/**/*.xml
