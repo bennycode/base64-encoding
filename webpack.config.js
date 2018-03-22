@@ -13,7 +13,6 @@ const src = 'src';
 module.exports = {
   devtool: 'source-map',
   devServer: {
-    contentBase: dist,
     hot: true,
     open: true,
   },
@@ -40,7 +39,9 @@ module.exports = {
     publicPath: '/',
   },
   plugins: [
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      title: pkg.name,
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin()
   ],
